@@ -1,0 +1,23 @@
+:root {
+    --pink: hsl(322, 100%, 66%);
+    --pale-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(./fonts/Poppins-VariableFont_wght.ttf) format(truetype),
+        url(./fonts/Poppins-VariableFont_wght.woff) format(woff),
+        url(./fonts/Poppins-VariableFont_wght.woff2) format(woff2);
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf) format(truetype),
+        url(./fonts/OpenSans-VariableFont_wdth\,wght.woff) format(woff),
+        url(./fonts/OpenSans-VariableFont_wdth\,wght.woff2) format(woff2);
+}
+body {
+    font-size: 1.125rem;
+    font-family: 'OpenSans';
+    font-weight: 400;
+}
