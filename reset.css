@@ -56,6 +56,7 @@ input, button,
 textarea, select {
   font-family: inherit;
   font-size: inherit;
+  border: none;
 }
 
 /* Make sure textareas without a rows attribute are not tiny */
